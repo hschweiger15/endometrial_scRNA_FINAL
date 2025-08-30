@@ -51,7 +51,7 @@ if not sample_id_col:
     print("Warning: No sample ID column found. Cannot perform pseudobulk analysis.")
 
 # Define genes and color scheme
-genes = ['NBN', 'RAD50', 'MRE11']
+genes = ['NBN', 'RAD50', 'MRE11', 'RPA2', 'TP53BP1']
 # Color scheme: Control = white, Endometriosis = gray
 condition_colors = {'Ctrl': '#FFFFFF', 'EuE': '#808080'}
 
